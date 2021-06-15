@@ -25,6 +25,7 @@ document.getElementById('display_addedmenu').innerHTML=htmldata;
 
 function buy_item(){
 var bup=document.getElementById("bp").value;
-document.getElementById("result").innerHTML="your order for "+bup+" pizza has been placed";
+var cd=document.getElementById("result").innerHTML="your order for "+bup+" pizza has been placed";
+localStorage.setItem("pizza_name",bup);
 }
 

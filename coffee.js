@@ -26,5 +26,6 @@ document.getElementById('display_addedmenu').innerHTML=htmldata;
 function buy_item(){
 var bup=document.getElementById("bp").value;
 document.getElementById("result").innerHTML="your order for "+bup+" coffee has been placed";
+localStorage.setItem("coffee_name",bup);
 }
 
