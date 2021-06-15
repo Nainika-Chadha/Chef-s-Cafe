@@ -1,0 +1,34 @@
+body{
+background-image: url("Bg.jpg");
+}
+
+#ch{
+color: white;
+font-family:Copperplate Gothic Light;
+font-size:72px;
+}
+
+#intro{
+    color: yellow;
+    font-family:Copperplate Gothic Light;
+    font-size:32px;
+    }
+
+    #que{
+        color:yellow;
+        font-family:Comic Sans MS;
+        font-size:27px;
+    
+        }
+
+    #pi{
+    background-color:red;
+    width: 200px;
+    height:30px;
+    }
+
+    #cof{
+        background-color:red;
+        width: 200px;
+        height:30px;
+        }
